@@ -1,0 +1,28 @@
+/* styles.css */
+#container {
+  width: 100%;
+}
+
+.button {
+  width: 50%;
+  font-size: 18px;
+  text-align: center;
+  padding: 12px;
+  margin: auto;
+  border: 1px solid rgb(115, 161, 247);
+  color: rgb(115, 161, 247);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(209, 230, 255);
+  color: rgb(115, 161, 247);
+}
+
+#output {
+  border: 1px dotted black;
+  border-radius: 3px;
+  background-color: rgb(224, 240, 255);
+  padding: 12px;
+}

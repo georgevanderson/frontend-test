@@ -1,0 +1,14 @@
+{
+  "name": "frontend-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "yarn serve ./app",
+    "dev": "nodemon ./node_modules/.bin/serve ./app"
+  },
+  "dependencies": {
+    "nodemon": "^1.19.4",
+    "serve": "^11.2.0"
+  }
+}
