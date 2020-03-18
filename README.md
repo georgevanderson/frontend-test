@@ -24,3 +24,5 @@ yarn dev
 ```
 
 3. pull 50 users in parallel to populate list
+
+4. pull 50 users in batches of 10 and populate list incrementally
