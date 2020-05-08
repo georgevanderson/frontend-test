@@ -6,6 +6,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.listen(3000);
+console.log('serving app at http://localhost:3000');
 
 app.get('/api/randomuser', async (req, res) => {
   const response = await fetch('https://randomuser.me/api/');
