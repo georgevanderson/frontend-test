@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-git clone https://github.com/aricallen/frontend-test.git
+git clone https://github.com/georgevanderson/frontend-test.git
 cd frontend-test
 yarn install
 yarn dev
