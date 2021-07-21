@@ -12,18 +12,13 @@ yarn dev
 
 ## Instructions
 
-> All code should be written in /app/js/script.js
+> All code should be written in /app/js/script.js. Useful to reference index.html
 
-1. when a user clicks on the button, ping api `/api/randomuser`
+1. Render a "table"  with the object keys as the header row
 
-2. use the response data to create a row item that displays the user's avatar and info
+2. render data as "rows" under the table
 
-```
-| --------------------------------------------------------------------- |
-| ( avatar ) {{firstName}} {{lastName}}                                 |
-| --------------------------------------------------------------------- |
-```
+3. When clicking on a header row for `age` or `friends`, sort the data high to low by value
 
-3. pull 50 users in parallel to populate list
 
-4. pull 50 users in batches of 10 and render 10 rows at a time
+Aim to make it so that header columns/sorting works for arbitrary property names (If we were to change `age` to `grade`)
